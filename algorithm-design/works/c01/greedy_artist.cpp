@@ -59,7 +59,7 @@ int main() {
     Solution s = Solution();
 
     int max_schedule_count1 = s.max_schedule_count(inputs1);
-    printf("result1: %d, expected: TBA", max_schedule_count1);
+    printf("result1: %d, expected: 2", max_schedule_count1);
  
     return 0;
 }
