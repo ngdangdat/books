@@ -40,3 +40,16 @@ Take home lesson
 ### 1.2. Selecting the right jobs
 - Inputs: a set of n intervals on the line
 - Output: largest subset of mututally non-overlapping intervals selected from the set
+
+
+- Put inputs in an array with each element is a pair of
+  - pair[0]: starting time
+  - pair[1]: ending time
+- Sort the array by pair[0]
+- From left to right, choose the pair that has shortest length
+- Move forward until reaching the last element
+
+- Problem
+  - There might be a better solution
+  - Greedy approach
+  - Approximate
