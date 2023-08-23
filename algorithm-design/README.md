@@ -49,7 +49,42 @@ Take home lesson
 - From left to right, choose the pair that has shortest length
 - Move forward until reaching the last element
 
-- Problem
+- Problem (of our own solution/approach)
   - There might be a better solution
   - Greedy approach
   - Approximate
+
+
+Take home lesson
+
+> Reasonable-looking algorithms can easily be incorrect. Algorithm correctness needs to be tested/demostrated carefully.
+
+### 1.3. Reasoning about Correctness
+
+#### 1.3.1. Expressing algorithms
+
+Take home lesson
+
+> The heart of any algorithm is an idea. If your idea is not clearly revealed when you express an algorithm, then you're using too low-level a notation to describe it.
+
+#### 1.3.2. Problems and properties
+
+Problem specifications have two parts
+1. the set of allowed input instances.
+2. the required properties of the algorithm's output.
+
+**Need to revisit this**
+
+#### 1.3.3. Demonstrating Incorrectness
+
+Prove incorrectness: produce an instance yields an incorrect answer called counter-examples.
+Good counter-examples have two important properties
+
+- Verifiability
+  1. calculate answer of your algorithm will give for the instance.
+  2. display a better answer so as to prove the algorithm doesn't find it.
+- Simplicity
+
+Hunting for counter-examples is necessary. Techniques:
+- Think small. Looks at small examples because they are easy to verify and reason about.
+- Think exhaustively
