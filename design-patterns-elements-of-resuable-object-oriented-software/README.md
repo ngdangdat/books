@@ -5,4 +5,22 @@
 - Adapter: convert the interface of a class into another interface clients expect
 - Bridge: decouple abstraction from its implementation -> the two can vary independently
 - Builder: separate the construction of a complex object from its representation so that the same construction process can create different implementations
-- Chain of responsibility
+- Chain of responsibility: avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
+- Command: encapsulate a request as an object, thereby letting you parameterize clients with different requests, queues or log requests, and support undoable operation
+- Composite: compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+- Decorator: attach additional responsibilities to an object dynamically. Subclassing for extending functionality.
+- Facade: provide a unified interface to a set of interfaces in a subsystem. High-level interface helps subsystem easier to use.
+- Factory Method: define an interface for creating an object but let subclasses decide which classes to instantiate.
+- Flyweight: use sharing to support large numbers of fine grained objects efficiently.
+- Interpreter:
+- Iterator: iterating without accessing to underlying implementation.
+- Mediator: define an object encapsulating how a set of objects interact.
+- Memento: 
+- Observer: 
+- Prototype:
+- Proxy:
+- Singleton: 
+- State:
+- Strategy:
+- Template Method:
+- Visitor:  
