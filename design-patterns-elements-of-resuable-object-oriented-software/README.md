@@ -24,3 +24,38 @@
 - Strategy:
 - Template Method:
 - Visitor:  
+
+## Categorizing design patterns
+- Creational
+  - Class
+    - Factory Method
+    - Object
+    - Abstract Factory
+    - Builder
+    - Prototype
+    - Singleton
+- Structural
+  - Class
+    - Adapter (class)
+  - Object
+    - Adapter (object)
+    - Bridge
+    - Composite
+    - Decorator
+    - Facade
+    - Flyweight
+    - Proxy
+- Behavioral
+  - Class
+    - Interpreter
+    - Template Method
+  - Object
+    - Chain of Responsibility
+    - Command
+    - Iterator
+    - Mediator
+    - Memento
+    - Observer
+    - State
+    - Strategy
+    - Visitor
